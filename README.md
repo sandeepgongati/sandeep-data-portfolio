@@ -1,6 +1,6 @@
 # Sandeep Gongati | Data Engineer Portfolio
 
-A modern, responsive personal portfolio for **Sandeep Gongati**, built to present data-engineering experience, cloud capabilities, ETL/ELT expertise, projects, certification, and contact information.
+A modern, responsive personal portfolio for **Sandeep Gongati**, built to present data-engineering experience, cloud capabilities, ETL/ELT expertise, projects, certification, contact information and also added the profie view count in the footer.
 
 The design is inspired by real-world data platforms: animated data ingestion, streaming, transformation, orchestration, warehouse loading, and Bronze-Silver-Gold Medallion Architecture.
 
