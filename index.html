@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sandeep Gongati - Data Engineer portfolio" />
+    <title>Sandeep Gongati | Data Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow"></div>
+    <div class="pipeline-bg"><span class="orb orb-one"></span><span class="orb orb-two"></span><span class="grid"></span></div>
+    <header class="nav-wrap">
+      <a class="brand" href="#home" aria-label="Sandeep Gongati home"><span class="brand-mark">SG</span><span>SANDEEP <b>GONGATI</b></span></a>
+      <button class="menu-toggle" aria-label="Toggle menu"><i></i><i></i></button>
+      <nav><a class="active" href="#home">Profile</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#certification">Credentials</a><a class="nav-contact" href="#contact">Contact me <span>↗</span></a></nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse"></span> OPEN TO DATA ENGINEERING OPPORTUNITIES</div>
+          <h1>Engineering the<br><em>flow of intelligence.</em></h1>
+          <p class="intro">Data Engineer with 4+ years building cloud-scale data platforms, resilient ETL/ELT pipelines, and analytics-ready lakehouses.</p>
+          <div class="hero-actions"><a class="primary-btn" href="#experience">Explore my work <span>↓</span></a><a class="text-btn" href="mailto:gongatisandeep.dev@gmail.com">Let’s connect <span>↗</span></a></div>
+          <div class="hero-pipeline" aria-label="Live data pipeline from ingestion to warehouse"><div class="pipeline-caption"><span class="pulse"></span> LIVE PLATFORM BLUEPRINT <b>RUNNING</b></div><div class="hero-flow"><div class="hero-step ingest"><span>01</span><b>Ingest</b><small>APIs · CDC · Files</small></div><div class="hero-arrow"><i></i></div><div class="hero-step stream"><span>02</span><b>Stream</b><small>Kafka · Kinesis</small></div><div class="hero-arrow"><i></i></div><div class="hero-step transform"><span>03</span><b>Transform</b><small>Spark · dbt</small></div><div class="hero-arrow"><i></i></div><div class="hero-step warehouse"><span>04</span><b>Load</b><small>Lakehouse · DWH</small></div></div><div class="pipeline-sub"><span>ORCHESTRATED BY AIRFLOW</span><span>QUALITY GATES ACTIVE</span><span>LINEAGE CAPTURED</span></div></div>
+          <div class="social-links"><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sandeepgongati/">in <span>LinkedIn</span></a><a target="_blank" rel="noreferrer" href="https://github.com/sandeepgongati/">⌘ <span>GitHub</span></a></div>
+          <div class="metric-row"><div><strong>4<span>+</span></strong><small>Years building<br>data products</small></div><div><strong>55<span>+</span></strong><small>Enterprise systems<br>integrated</small></div><div><strong>3</strong><small>Major cloud<br>platforms</small></div></div>
+        </div>
+        <div class="hero-art reveal">
+          <div class="image-frame"><img src="assets/sandeep-data-engineer-hero.png" alt="A 3D visualization of a data engineer working with cloud data pipelines" /><div class="scanline"></div></div>
+          <div class="floating-card card-cloud"><span class="mini-icon cloud-icon">☁</span><small>ORCHESTRATION</small><b>Cloud-native</b><div class="tiny-bars"><i></i><i></i><i></i></div></div>
+          <div class="floating-card card-status"><span class="status-dot"></span><b>Pipeline healthy</b><small>24 jobs running</small></div>
+          <div class="node node-a"></div><div class="node node-b"></div><div class="node node-c"></div>
+        </div>
+        <div class="scroll-mark">SCROLL TO EXPLORE <span></span></div>
+      </section>
+
+      <section class="section experience" id="experience">
+        <div class="section-head reveal"><div><p class="kicker">01 / EXPERIENCE</p><h2>Turning raw data into<br><em>reliable decisions.</em></h2></div><p>From real-time financial reporting to customer 360 platforms, I design production pipelines that teams can trust.</p></div>
+        <div class="timeline">
+          <article class="role reveal"><div class="role-date">MAY 2025 — JUN 2026</div><div class="role-main"><div class="role-title"><span class="company-badge fr">FR</span><div><h3>Data Engineer</h3><p>Federal Reserve Bank of Cleveland <span>•</span> Ohio, USA</p></div></div><ul><li>Integrated 20+ financial, economic, and operational source systems into AWS S3 and Redshift using Glue, PySpark, SQL, and Airflow.</li><li>Built batch and event-driven ingestion with Lambda, Kinesis, Kafka, and REST APIs, reducing data availability to hourly refreshes.</li><li>Developed reusable dbt and Great Expectations frameworks for schema validation, monitoring, and data quality.</li></ul><div class="chips"><span>AWS Glue</span><span>PySpark</span><span>Airflow</span><span>Redshift</span><span>dbt</span></div></div></article>
+          <article class="role reveal"><div class="role-date">SEP 2022 — AUG 2024</div><div class="role-main"><div class="role-title"><span class="company-badge ab">AB</span><div><h3>Azure Data Engineer</h3><p>Aditya Birla Capital <span>•</span> Mumbai, India</p></div></div><ul><li>Built a Customer 360 platform from 25+ systems using ADF, Databricks, ADLS Gen2, and SSIS.</li><li>Designed Bronze, Silver, and Gold Delta Lake layers for 10M+ records using CDC and incremental loading.</li><li>Implemented governance with Purview, Unity Catalog, Key Vault, RBAC, and lineage across shared platforms.</li></ul><div class="chips"><span>Azure Data Factory</span><span>Databricks</span><span>Delta Lake</span><span>Synapse</span><span>Snowflake</span></div></div></article>
+          <article class="role reveal"><div class="role-date">JUL 2021 — AUG 2022</div><div class="role-main"><div class="role-title"><span class="company-badge tc">TC</span><div><h3>Data Engineer</h3><p>Tata Communications <span>•</span> Hyderabad, India</p></div></div><ul><li>Built Python, SSIS, Hadoop, and Hive workflows across telecom and healthcare datasets.</li><li>Created reusable datasets from SQL Server, PostgreSQL, MySQL, and MongoDB with trusted validation layers.</li><li>Supported 100+ business users with analytics-ready models for Power BI, Tableau, Looker, and Excel.</li></ul><div class="chips"><span>Python</span><span>SQL Server</span><span>Hadoop</span><span>Hive</span><span>Power BI</span></div></div></article>
+        </div>
+      </section>
+
+      <section class="section project-section" id="projects"><div class="section-head reveal"><div><p class="kicker">02 / SELECTED PROJECT</p><h2>BigQuery, meet<br><em>business questions.</em></h2></div><a class="text-btn" href="mailto:gongatisandeep.dev@gmail.com?subject=AI-BigQuery-Analytics-Assistant">Request a walkthrough <span>↗</span></a></div><article class="project-card reveal"><div class="project-copy"><div class="project-label"><span></span> FEATURED BUILD</div><h3>AI BigQuery<br>Analytics Assistant</h3><p>A cloud-native retail analytics application that combines automated ETL, warehouse-grade modeling, interactive dashboards, and natural-language insight discovery.</p><div class="project-stats"><div><b>GCP</b><small>Cloud platform</small></div><div><b>RAG</b><small>AI-enhanced discovery</small></div><div><b>CI/CD</b><small>Automated deployment</small></div></div><div class="chips"><span>BigQuery</span><span>Streamlit</span><span>Cloud Run</span><span>Python</span><span>Plotly</span></div></div><div class="pipeline-visual" aria-label="Animated ETL data pipeline"><div class="p-title">LIVE DATA FLOW <span>●</span></div><div class="flow"><div class="flow-node source">CSV<br><small>Sources</small></div><div class="flow-line"><i></i><i></i><i></i></div><div class="flow-node transform">ETL<br><small>Validate + Model</small></div><div class="flow-line"><i></i><i></i><i></i></div><div class="flow-node target">BQ<br><small>Warehouse</small></div></div><div class="dashboard-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div></article></section>
+
+      <section class="section skills" id="skills"><div class="section-head reveal"><div><p class="kicker">03 / TECHNICAL TOOLKIT</p><h2>Tools for every<br><em>stage of the flow.</em></h2></div></div><div class="skill-grid reveal"><div class="skill-card"><span class="skill-number">01</span><h3>Cloud platforms</h3><p>AWS, Azure, and GCP architectures designed for scale, security, and operational clarity.</p><div class="clouds"><b class="aws">aws</b><b class="azure">▣ Azure</b><b class="gcp">GCP</b></div></div><div class="skill-card"><span class="skill-number">02</span><h3>Processing & storage</h3><p>Lakehouse and warehouse foundations built for high-volume batch and real-time workloads.</p><div class="tool-row"><span>Apache Spark</span><span>Databricks</span><span>Snowflake</span><span>Kafka</span></div></div><div class="skill-card"><span class="skill-number">03</span><h3>Engineering & trust</h3><p>Orchestration, testing, governance, and delivery practices that make pipelines dependable.</p><div class="tool-row"><span>Airflow</span><span>dbt</span><span>Terraform</span><span>Docker</span></div></div><div class="skill-card"><span class="skill-number">04</span><h3>AI & analytics</h3><p>Modern data products, from semantic models to RAG-enabled data discovery.</p><div class="tool-row"><span>Python</span><span>RAG</span><span>Power BI</span><span>MLflow</span></div></div></div></section>
+
+      <section class="section credentials" id="certification"><div class="credential-card reveal"><div class="credential-top"><p class="kicker">04 / CREDENTIAL</p><span class="cert-seal">✦</span></div><div><p class="issued">DATABRICKS</p><h2>Certified Data Engineer<br><em>Professional</em></h2><p class="credential-id">Credential ID: 191605188</p></div><a class="primary-btn" target="_blank" rel="noreferrer" href="https://credentials.databricks.com/32f3f9d8-6e75-4dab-85a1-9b62188c1064#acc.zhwBrXG0">Verify credential <span>↗</span></a></div><div class="education reveal"><p class="kicker">05 / EDUCATION</p><h3>Master of Engineering<br>in Computer Science</h3><p>University of Cincinnati <span>•</span> Ohio, USA</p><b>AUG 2024 — APR 2026</b></div></section>
+
+      <section class="contact" id="contact"><p class="kicker">06 / CONTACT</p><h2>Let’s build the next<br><em>data advantage.</em></h2><p>Have a data platform challenge, a role, or an idea? I’d love to hear about it.</p><a class="contact-email" href="mailto:gongatisandeep.dev@gmail.com">gongatisandeep.dev@gmail.com <span>↗</span></a><div class="contact-meta"><a href="tel:+15135510961">+1 513 551 0961</a><span>UNITED STATES</span></div></section>
+    </main>
+    <footer><a class="brand" href="#home"><span class="brand-mark">SG</span><span>SANDEEP <b>GONGATI</b></span></a><p>© <span id="year"></span> Sandeep Gongati. Built for the flow of data.</p><a href="#home">Back to top ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
